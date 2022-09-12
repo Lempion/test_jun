@@ -1,0 +1,6 @@
+1. SELECT value FROM property_value WHERE product_id=:id
+
+2. Если я всё правильно понял во 2 задании это: Получить все уникальные названия свойст у выбранной категории
+SELECT DISTINCT value FROM property_value JOIN category ON property_value.property_id=category.id WHERE categories.name=:category_name;
+
+
